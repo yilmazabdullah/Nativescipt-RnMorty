@@ -1,0 +1,38 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ActionBar class="home" title="Anasayfa">
+    </ActionBar>
+    <ScrollView>
+        <StackLayout class="home-panel">
+         
+            <Image class="img"
+                src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" />
+            <Button class="btn" text="Bölüm Bilgileri"
+                tap="{{ onButtonTap }}" />
+
+
+            <Label text="{{Label1}}" />
+            <Label text="{{Label2}}" />
+            <Label text="{{Label3}}" />
+            <Label text="{{Label4}}" />
+            <Label text="{{Label5}}" />
+            <Label text="{{Label6}}" />
+            <Label text="{{Label7}}" />
+            <Label text="{{Label8}}" />
+            <Label text="{{Label9}}" />
+            <Label text="{{Label10}}" />
+            <Label text="{{Label11}}" />
+            <Label text="{{Label12}}" />
+            <Label text="{{Label13}}" />
+            <Label text="{{Label14}}" />
+            <Label text="{{Label15}}" />
+            <Label text="{{Label16}}" />
+            <Label text="{{Label17}}" />
+            <Label text="{{Label18}}" />
+            <Label text="{{Label19}}" />
+            <Label text="{{Label20}}" />
+
+
+        </StackLayout>
+    </ScrollView>
+</Page>

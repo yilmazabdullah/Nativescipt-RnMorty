@@ -1,0 +1,36 @@
+@import '~@nativescript/theme/css/core.css';
+@import '~@nativescript/theme/css/default.css';
+
+.btn {
+    font-size: 30;
+    margin-top: 0;
+    background-color: #F7DC6F;
+    width: 100%;
+    color: blue;
+
+    
+}
+
+.home-panel{
+    font-size: 20;
+    margin: 10;
+    margin-top: 0;
+    background-color: #ddd;
+    border-radius: 20;
+
+
+}
+.img{
+    border-top-right-radius: 20;
+    border-top-left-radius: 20;
+}
+
+.home{
+ background-color: #F7DC6F
+}
+Label{
+    background-color:#F7DC6F;
+    padding: 6;
+    margin: 4 0;
+    
+}
